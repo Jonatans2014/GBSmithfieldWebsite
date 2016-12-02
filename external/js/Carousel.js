@@ -12,6 +12,10 @@ $(document).ready(function(){
     $(".item2").click(function(){
         $("#myCarousel").carousel(1);
     });
+
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
     // Enable Carousel Controls
     $(".left").click(function(){
         $("#myCarousel").carousel("prev");
