@@ -1,0 +1,48 @@
+#homepage
+{
+    background-color: #FFFFFF;
+}
+.navbar
+{
+
+    border: hidden;
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    
+}
+
+.carousel
+{
+    width: 100%;
+
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+#firstCitem
+{
+    height: 600px;
+}
+#secondCitem
+{
+    height: 600px;
+}
+
+
+.pull-left
+{
+    margin-left: 10%;
+}
+.pull-right
+{
+    margin-right: 10%;
+}
+
+.footer-bottom
+{
+    margin-left: 35%;
+}
