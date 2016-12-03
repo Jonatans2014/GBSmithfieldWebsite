@@ -6,3 +6,12 @@ $(document).ready(function(){
         $("#myModal").modal();
     });
 });
+
+
+$(document).ready(function(){
+    $(".dropdown").click(function(){
+        $("#oneD").fadeIn();
+        $("#TwoD").fadeIn("slow");
+        $("#ThreeD").fadeIn(3000);
+    });
+});
